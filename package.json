@@ -1,0 +1,59 @@
+{
+  "name": "builder-wtw",
+  "version": "0.0.1",
+  "description": "构建管理npm包",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "builder-wtw/node_modules/.bin/_mocha ./test/index.js",
+    "fix": "builder-wtw/node_modules/.bin/eslint ./lib --fix"
+  },
+  "keywords": [
+    "webpack",
+    "mocha",
+    "react",
+    "jest"
+  ],
+  "author": "wtw",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "assert": "^2.0.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "mocha": "^10.0.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.2",
+    "px2rem-loader": "^0.1.9",
+    "raw-loader": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-minimizer-webpack-plugin": "^4.1.0",
+    "glob": "^8.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "lib-flexible": "^0.3.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.74.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
