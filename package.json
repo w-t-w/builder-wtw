@@ -48,6 +48,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-minimizer-webpack-plugin": "^4.1.0",
     "glob": "^8.0.3",
+    "glob-all": "^3.3.0",
     "html-webpack-plugin": "^5.5.0",
     "lib-flexible": "^0.3.2",
     "mini-css-extract-plugin": "^2.6.1",
